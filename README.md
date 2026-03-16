@@ -28,3 +28,10 @@ pip install -r requirements.txt
 ```
 
 3. Open the `notebooks/` directory and execute the Jupyter notebooks in sequential order.
+
+## ⚠️ Known Limitations & Future Work
+While the Random Forest model shows promising risk-adjusted returns, future iterations will address the following quantitative modeling challenges:
+
+* **Look-Ahead Bias:** Accounting fundamentals (e.g., ROA) are typically published weeks after the quarter ends. Future backtests will strictly apply lagging periods (e.g., 45-90 days) to fundamental features to simulate a realistic, point-in-time information flow.
+* **Survivorship Bias:** The current universe relies on modern VN30 constituents. Future pipelines will dynamically reconstruct historical index constituents (including delisted or downgraded firms) to prevent the artificial inflation of out-of-sample performance.
+* **Feature Expansion:** I plan to expand the feature space beyond basic financial ratios to include alternative data and macroeconomic indicators for more robust Alpha generation.
