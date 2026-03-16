@@ -16,14 +16,6 @@ The project introduces an adaptive systematic investment strategy using **Random
 * **Quantitative Finance:** Alpha Generation, Markowitz Mean-Variance Optimization, Backtesting
 * **Data Processing & Visualization:** Pandas, NumPy, Matplotlib
 
-## 📊 Performance Highlights
-*(Update later: Insert a screenshot of your portfolio cumulative returns or drawdown charts here)*
-
-Empirical backtesting (2021–2024) demonstrates that this Alpha-based Machine Learning portfolio consistently exhibits:
-* **Superior downside risk control** during highly volatile market conditions.
-* **Lower Maximum Drawdown** compared to the traditional Markowitz mean-variance optimization model.
-* **Enhanced risk-adjusted returns (Sharpe Ratio)** through adaptive retraining mechanisms.
-
 ## ⚙️ How to Run
 1. Clone this repository:
 ```bash
